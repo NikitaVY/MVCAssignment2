@@ -11,22 +11,16 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FirstName)
+            @Html.DisplayNameFor(model => model.Name)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FirstName)
+            @Html.DisplayFor(model => model.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LastName)
+            @Html.DisplayNameFor(model => model.DOB)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Age)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Age)
+            @Html.DisplayFor(model => model.DOB)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Doj)
@@ -34,12 +28,18 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Doj)
         </dd>
-        @* <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Password)
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dept)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Password)
-        </dd> *@
+            @Html.DisplayFor(model => model.Dept)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
     </dl>
 </div>
 <div>

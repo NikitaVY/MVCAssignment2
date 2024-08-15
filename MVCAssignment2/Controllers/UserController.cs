@@ -48,8 +48,11 @@ namespace MVCAssignment2.Controllers
             {
                 if (item.Id == id)
                 {
-                    item.Age = user.Age;
+                    item.Name = user.Name;
+                    item.DOB = user.DOB;
                     item.Doj = user.Doj;
+                    item.Dept = user.Dept;
+                    item.Salary = user.Salary;
                     break;
                 }
             }
